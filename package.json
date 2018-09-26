@@ -1,0 +1,30 @@
+{
+  "name": "bytetech",
+  "version": "2.1.0",
+  "description": "-- AWESOMENESS --",
+  "main": "Main.js",
+  "scripts": {
+    "start": "node Main.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "fs": "0.0.2",
+    "sqlite": "^3.0.0",
+    "moment": "^2.22.1",
+    "ms": "^2.1.1",
+    "opusscript": "0.0.6",
+    "quick.db": "^6.2.0",
+    "request": "^2.85.0",
+    "sqlite3": "^4.0.0",
+    "snekfetch": "^4.0.4",
+    "fs-nextra": "^0.3.7",
+    "canvas-constructor": "^1.1.2",
+    "canvas": "^1.6.10",
+    "superagent": "^3.8.3"
+    
+  },
+  "engines": {
+    "node": "8.4.0"
+  }
+}
