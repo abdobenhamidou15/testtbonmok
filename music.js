@@ -189,4 +189,4 @@ client.on("message", async (message) => {
 	})
 });
 
-client.login("Your token");
+ client.login(process.env.abdo);
