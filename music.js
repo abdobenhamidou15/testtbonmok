@@ -58,7 +58,7 @@ var jimp = module.require('jimp');
                               let ava = new Avatar;
                               ava.src = buf;
                               ctx.beginPath();
-                              ctx.arc(50, 60, 50, 0, Math.PI*2);
+                              ctx.arc(50, 60, 42, 0, Math.PI*2);
                               ctx.stroke();
                                  ctx.clip();
                                  ctx.drawImage(ava, 20, 38, 70, 70);  
