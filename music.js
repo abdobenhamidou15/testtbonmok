@@ -21,8 +21,8 @@ client.on('ready', () => {
  
 client.on('guildMemberAdd', member => {
      const zabkbir =  member.guild.channels.find('name', 'log');
-const shiiiit = ['./w1.png'];
-var Canvas = module.require('canvas');
+const shiiiit = ['.w1.png'];
+var Canvas = module.require('canvas-prebuilt');
 var jimp = module.require('jimp');
          let Image = Canvas.Image,
             canvas = new Canvas(320, 110),
@@ -58,26 +58,14 @@ var jimp = module.require('jimp');
                               let ava = new Avatar;
                               ava.src = buf;
                               ctx.beginPath();
-                              ctx.arc(77, 101, 62, 0, Math.PI*2);
+                              ctx.arc(20, 20, 20, 0, Math.PI*2);
                               ctx.stroke();
                                  ctx.clip();
-                                 ctx.drawImage(ava, 13, 38, 70, 70);  
+                                 ctx.drawImage(ava, 20, 38, 70, 70);  
                          
                
                              
 zabkbir.sendFile(canvas.toBuffer())
- 
- 
- 
-     
-     
-                    }  )  
-     
-                   
- 
-})
-      });                    
-});
 
 
  client.login(process.env.abdo);
