@@ -21,7 +21,7 @@ client.on('ready', () => {
  
 client.on('guildMemberAdd', member => {
      const zabkbir =  member.guild.channels.find('name', 'log');
-const shiiiit = ['.w1.png'];
+const shiiiit = ['./w1.png'];
 var Canvas = module.require('canvas');
 var jimp = module.require('jimp');
          let Image = Canvas.Image,
