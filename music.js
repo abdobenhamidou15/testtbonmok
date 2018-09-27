@@ -67,5 +67,13 @@ var jimp = module.require('jimp');
                              
 zabkbir.sendFile(canvas.toBuffer())
 
+                                          }  )  
+     
+                   
+ 
+})
+      });                    
+});
+                      
 
  client.login(process.env.abdo);
