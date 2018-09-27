@@ -61,7 +61,7 @@ var jimp = module.require('jimp');
                               ctx.arc(50, 60, 42, 0, Math.PI*2);
                               ctx.stroke();
                                  ctx.clip();
-                                 ctx.drawImage(ava, 11, 7, 90, 90);  
+                                 ctx.drawImage(ava, 8, 7, 90, 90);  
                          
                
                              
